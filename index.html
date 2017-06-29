@@ -3,18 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>19-21 Johnston Street, Collingwood</title>
     <link rel="stylesheet" href="assets/css/19-21.css">
     <script type="text/javascript">
-        var randColour = Math.floor(Math.random() * 4) + 1,
-            randImage = Math.floor(Math.random() * 4) + 1;
-        var colour = "colour-" + randColour;
-        var image = "image-" + randImage;
+      var randColour = Math.floor(Math.random() * 4) + 1,
+          randImage = Math.floor(Math.random() * 4) + 1;
+      var colour = "colour-" + randColour;
+      var image = "image-" + randImage;
       document.addEventListener("DOMContentLoaded", function(event) {
         var body = document.getElementById("body");
         body.classList.add(colour);
         body.classList.add(image);
       });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-98625420-1', 'auto');
+      ga('send', 'pageview');
+
     </script>
   </head>
   <body id="body" class="block-colour">
@@ -49,10 +59,7 @@
             <a href="http://www.acclaimmag.com/" class="tenants-list__link block-colour image reverse-text">Acclaim Magazine</a>
           </li>
           <li class="tenants-list__tenant">
-            <a href="http://www.acmedia.com.au/" class="tenants-list__link block-colour image reverse-text">ACM</a>
-          </li>
-          <li class="tenants-list__tenant">
-            <a href="http://archetypemedia.com.au/" class="tenants-list__link block-colour image reverse-text">Archetype</a>
+            <a href="http://archetypemedia.com.au/" class="tenants-list__link block-colour image reverse-text">Archetype Media</a>
           </li>
         </ul>
       </div><!-- tenants column -->
